@@ -17,7 +17,7 @@ function checksExistsUserAccount(request, response, next) {
 
   if(!user) {
     return response.status(404).json({
-      erro: "Username not found"
+      error: "Username not found"
     })
   }
 
